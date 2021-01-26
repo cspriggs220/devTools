@@ -2,6 +2,11 @@
 	name = Cody Spriggs
 	email = cody.spriggs@daveramsey.com
 	username = cspriggs220
+[alias]
+	amend = commit --amend # note the no-edit `touch` below
+	pf = push --force-with-lease
+	touch = commit --amend --no-edit
+	ninja = !git touch && git pf # AKA "what_i_mean_was"
 [diff]
 	tool = vscode
 	renames = true
@@ -12,6 +17,8 @@
 	ff = only
 [branch]
 	autosetuprebase = always
+[push]
+	default = current # assumes the current branch when pushing, creating that branch on origin if it doesn't exist
 [pull]
 	rebase = true
 [color]

@@ -20,20 +20,19 @@ _Inspired by my friend [Christian](https://github.com/ChristianJHughes/devTools)
 
 ### Command Line Tools
 
+#### Via curl
+
+- [Homebrew](https://brew.sh/)
+
 #### Via homebrew
 
 - [mysql@5.7](https://formulae.brew.sh/formula/mysql)
 - [openssl@1.1](https://formulae.brew.sh/formula/openssl@1.1#default)
 - [gnupg](https://formulae.brew.sh/formula/gnupg#default)
 
-#### Via curl
-
-- [Homebrew](https://brew.sh/)
-
 #### Via git
 
 - [asdf](https://github.com/asdf-vm/asdf)
-
 
 #### Via asdf
 
