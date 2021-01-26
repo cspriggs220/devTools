@@ -133,5 +133,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.linux": "/bin/zsh",
-  "terminal.integrated.shell.osx": "/bin/zsh"
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  // Open the terminal in the currently opened workspace's directory
+  "terminal.integrated.cwd": "${fileWorkspaceFolder}"
 }
