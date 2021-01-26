@@ -1,0 +1,31 @@
+[user]
+	name = Cody Spriggs
+	email = cody.spriggs@daveramsey.com
+	username = cspriggs220
+[diff]
+	tool = vscode
+	renames = true
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+	ff = only
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
+[color]
+	ui = true
+	branch = auto
+	diff = auto
+	status = auto
+[core]
+	editor = code --wait
+	# excludesfile = .vscode/
+# check that anything we're getting is complete and sane on a regular basis
+[transfer]
+	fsckobjects = false
+[fetch]
+	fsckobjects = false
+[receive]
+	fsckobjects = false
