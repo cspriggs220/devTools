@@ -1,0 +1,137 @@
+{
+  "workbench.colorTheme": "Quiet Light",
+  "workbench.settings.openDefaultKeybindings": true,
+  "window.zoomLevel": 1,
+  "window.nativeTabs": true,
+  // EDITOR APPEARANCE
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.15,
+  "editor.lineHeight": 22,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // FILE FORMATTING
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": false
+  },
+  "[svg]": {
+    "files.insertFinalNewline": false
+  },
+  "files.associations": {
+    "*.html.erb": "erb",
+    "*.js.erb": "javascript"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // PRETTIER
+  "prettier.tabWidth": 2,
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.disableLanguages": [
+    "erb"
+  ],
+  // ESLint
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.nodePath": "node_modules/ramsey-boilerplate/config/.eslintrc.js",
+  // EMMET
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "freemarker": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "html.suggest.html5": true,
+  "html.format.wrapLineLength": 0,
+  // PLUGINS
+  "gitlens.keymap": "chorded",
+  "ruby.intellisense": "rubyLocate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": false,
+  "ruby.format": "rubocop",
+  "javascript.preferences.quoteStyle": "single",
+  "gitlens.views.fileHistory.enabled": false,
+  "gitlens.views.lineHistory.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  // MARKDOWN
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.tableFormatter.enabled": false,
+  "markdown.extension.italic.indicator": "_",
+  "markdown.extension.toc.unorderedList.marker": "*",
+  // THEME CUSTOMIZATIONS
+  "workbench.colorCustomizations": {
+    "panel.background": "#001c40",
+    "tab.activeBackground": "#264769",
+    "tab.activeBorder": "#ffeead",
+    "panelTitle.activeBorder": "#ffeead",
+    "panel.border": "#ffeead"
+  },
+  // TERMINAL
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
+  "terminal.integrated.fontSize": 13,
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh"
+}
