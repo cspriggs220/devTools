@@ -31,6 +31,7 @@ _Inspired by my friend [Christian](https://github.com/ChristianJHughes/devTools)
 - [**gnupg**](https://formulae.brew.sh/formula/gnupg#default)
 - [**node**](https://formulae.brew.sh/formula/node#default)
 - [**yarn**](https://formulae.brew.sh/formula/yarn#default)
+- [**python**](https://docs.brew.sh/Homebrew-and-Python#python-3x)
 
 #### Via `yarn` & `npm`
 
