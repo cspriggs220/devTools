@@ -37,6 +37,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 # Ruby Aliases
 alias be="bundle exec"
+alias tests="RAILS_ENV=test bundle exec rspec"
 alias brespect="SIMPLECOV=1 RAILS_ENV=test bundle exec rspec"
 alias booya="bundle && yarn"
 
@@ -47,10 +48,22 @@ alias gcmsg="git commit -m"
 alias ggpull="git pull --ff-only"
 alias ggpush='git push origin $(git_current_branch)'
 alias git-touch='git commit --amend --no-edit'
+alias git-nuke="git branch | grep -v 'master' | xargs git branch -D"
 
 # CLI Tool Aliases
 alias myip="ifconfig en0 | grep 'inet ' | cut -f2 -d ' '"
 alias rm="trash"
+# replacement for file-listing command line util `ls`
+# https://github.com/ogham/exa
+# -T recurse into dirs as a tree
+# -L filter levels deep
+# -l display extended details and attrs
+# -m modified timestamp
+# -a show hidden and dot files
+# --header row to column
+# --icons display icons
+alias lga="exa -T -L=2 --git-ignore -l -m -a --header --icons"
+alias lta="exa -T -L=2 -l -m -a --header --icons"
 
 # OS Path
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES

@@ -119,10 +119,10 @@
   "markdown.extension.toc.unorderedList.marker": "*",
   // THEME CUSTOMIZATIONS
   "workbench.colorCustomizations": {
-    "panel.background": "#001c40",
-    "tab.activeBackground": "#264769",
-    "tab.activeBorder": "#ffeead",
-    "panelTitle.activeBorder": "#ffeead",
+    // "panel.background": "#001c40",
+    // "tab.activeBackground": "#264769",
+    // "tab.activeBorder": "#ffeead",
+    // "panelTitle.activeBorder": "#ffeead",
     "panel.border": "#ffeead"
   },
   // TERMINAL

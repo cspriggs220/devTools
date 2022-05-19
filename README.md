@@ -32,6 +32,7 @@ _Inspired by my friend [Christian](https://github.com/ChristianJHughes/devTools)
 - [**node**](https://formulae.brew.sh/formula/node#default)
 - [**yarn**](https://formulae.brew.sh/formula/yarn#default)
 - [**python**](https://docs.brew.sh/Homebrew-and-Python#python-3x)
+- [**exa**](https://github.com/ogham/exa)
 
 #### Via `yarn` & `npm`
 
